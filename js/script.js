@@ -1,1 +1,1 @@
-alert('Alerta Externo')
+document.getElementById("texto").innerHTML="Primeiro texto <b>JS</b>!";
