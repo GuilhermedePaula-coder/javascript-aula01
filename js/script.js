@@ -1,1 +1,1 @@
-alert('Olá, Mundo!');
+alert('Alerta Externo')
