@@ -6,7 +6,7 @@
 a=5;
 b=6;
 c=7;
-let pessoa = "Guilherme"*/
+let pessoa = "Guilherme"
 
 var a,b,c;
 
@@ -26,4 +26,39 @@ nome_completo = nome + " "+ sobrenome
 document.getElementById("texto").innerHTML = nome_completo
 
 let pessoa = "Guilherme" //pode mudar em escopo, bloco 
-const idade = 18 // sempre será 18
+const idade = 18 // sempre será 18*/
+
+var valor1, valor2, total,total2,resultado;
+
+/*valor1 = 5;
+valor2 = 2;
+
+total = ++valor1;
+
+alert(total);
+alert("O valor1 virou  + valor1);
+
+total2 = --valor2;
+alert(total2);
+
+valor1 = 8;
+valor2 = "12";
+
+total = (valor1 !== "8"); //diferente tipo e valor
+alert(total);
+
+total = (valor1 === valor2); //comparando tipo e valor (===)
+alert(total)*/
+
+var idade, eleitor;
+
+idade = 65;
+
+eleitor = (idade<18) ? "não eleitor": "eleitor" //operado ternário (condição true ou false)
+alert("A respota é:" + " "+ eleitor + ", "+ "a idade dele é" + " " + idade)
+
+resultado = (idade > 60 && idade < 70) //operador lógico "e"
+resultado = (idade ===65 || idade ===72)
+resultado = !(idade ===65)
+alert(resultado)
+
