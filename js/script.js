@@ -16,3 +16,11 @@ c = a + b;
 
 alert(c);
 
+var nome, sobrenome, nome_completo;
+
+nome = "Guilherme"
+sobrenome = "de Paula"
+
+nome_completo = nome + " "+ sobrenome
+
+document.getElementById("texto").innerHTML = nome_completo
