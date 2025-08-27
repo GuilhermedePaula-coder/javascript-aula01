@@ -24,3 +24,6 @@ sobrenome = "de Paula"
 nome_completo = nome + " "+ sobrenome
 
 document.getElementById("texto").innerHTML = nome_completo
+
+let pessoa = "Guilherme" //pode mudar em escopo, bloco 
+const idade = 18 // sempre será 18
