@@ -76,17 +76,36 @@ document.getElementById("texto2").innerHTML = resultado;
 //document.getElementById("texto").innerHTML = soma(2,2);
 //var total = soma(10,10);
 //alert(total);
-alert("O valor em real é R$: "+ valorReal + " e o valor em U$ é: " + resultado);
+alert("O valor em real é R$: "+ valorReal + " e o valor em U$ é: " + resultado);*/
 
 function alerta_hello(){
     alert("São Paulo Tricampeão Mundial!");
 }
 
-function paraCelsius(fahrenheit){
+/*function paraCelsius(fahrenheit){
     return (5/9) * (fahrenheit - 32);
 }
 
 var x = paraCelsius(77);
 alert("A temperatura é de " +x+ " graus celsius");*/
+
+let carro = {marca: "honda", 
+    ano: 2025,
+    modelo:"civic",
+    placa:"ABC-1234",
+    status: function(){
+        alert("novo");
+    },
+    completo: function(){
+        return "A marca é: "+this.marca+" e o modelo é: " + this.modelo;
+    }
+}
+carro.status();
+console.log(carro.completo())
+
+
+    
+
+
 
 
