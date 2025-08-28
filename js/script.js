@@ -28,7 +28,7 @@ document.getElementById("texto").innerHTML = nome_completo
 let pessoa = "Guilherme" //pode mudar em escopo, bloco 
 const idade = 18 // sempre será 18*/
 
-var valor1, valor2, total,total2,resultado;
+//var valor1, valor2, total,total2,resultado;
 
 /*valor1 = 5;
 valor2 = 2;
@@ -48,7 +48,7 @@ total = (valor1 !== "8"); //diferente tipo e valor
 alert(total);
 
 total = (valor1 === valor2); //comparando tipo e valor (===)
-alert(total)*/
+alert(total)
 
 var idade, eleitor;
 
@@ -60,5 +60,33 @@ alert("A respota é:" + " "+ eleitor + ", "+ "a idade dele é" + " " + idade)
 resultado = (idade > 60 && idade < 70) //operador lógico "e"
 resultado = (idade ===65 || idade ===72)
 resultado = !(idade ===65)
-alert(resultado)
+alert(resultado)*/
+
+/*
+function soma (valor1,valor2){
+    return valor1 + valor2;
+}
+function real_dolar(real,cotaçao_dolar){
+    return real * cotaçao_dolar;
+}
+var valorReal = 7.89;
+var cotacao = 5.42;
+var resultado = real_dolar(valorReal,cotacao);
+document.getElementById("texto2").innerHTML = resultado;
+//document.getElementById("texto").innerHTML = soma(2,2);
+//var total = soma(10,10);
+//alert(total);
+alert("O valor em real é R$: "+ valorReal + " e o valor em U$ é: " + resultado);
+
+function alerta_hello(){
+    alert("São Paulo Tricampeão Mundial!");
+}
+
+function paraCelsius(fahrenheit){
+    return (5/9) * (fahrenheit - 32);
+}
+
+var x = paraCelsius(77);
+alert("A temperatura é de " +x+ " graus celsius");*/
+
 
