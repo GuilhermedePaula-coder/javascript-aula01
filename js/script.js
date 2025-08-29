@@ -78,16 +78,16 @@ document.getElementById("texto2").innerHTML = resultado;
 //alert(total);
 alert("O valor em real é R$: "+ valorReal + " e o valor em U$ é: " + resultado);*/
 
-function alerta_hello(){
-    alert("São Paulo Tricampeão Mundial!");
-}
+//function alerta_hello(){
+    //alert("São Paulo Tricampeão Mundial!");
+//}
 
 /*function paraCelsius(fahrenheit){
     return (5/9) * (fahrenheit - 32);
 }
 
 var x = paraCelsius(77);
-alert("A temperatura é de " +x+ " graus celsius");*/
+alert("A temperatura é de " +x+ " graus celsius");
 
 let carro = {marca: "honda", 
     ano: 2025,
@@ -101,11 +101,34 @@ let carro = {marca: "honda",
     }
 }
 carro.status();
-console.log(carro.completo())
+console.log(carro.completo())*/
 
+function evento_click(){
+    alert("Bacana!")
+    document.body.style.backgroundColor = "orange";
+}
 
-    
+function viraVermelho(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "red";
+}
 
+function viraAzul(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "blue";
+}
+function limpaTexto(){
+    document.getElementById("campoTexto").value = "";
 
+}
+
+function mudou(){
+    console.log('Mudou!')
+}
+
+function teclaPressionada(){
+    let input = document.getElementById("campoTexto").value;
+    console.log(input);
+}
 
 
